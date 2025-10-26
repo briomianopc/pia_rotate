@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import os, subprocess, time, random, sys
 
-CONF_DIR = "/opt/ovpn_rotate/configs"
-CRED_FILE = "/opt/ovpn_rotate/creds.txt"
-EXIT_LOG = "/opt/ovpn_rotate/exit_log.txt"
+CONF_DIR = "/opt/pia_rotate/configs"
+CRED_FILE = "/opt/pia_rotate/creds.txt"
+EXIT_LOG = "/opt/pia_rotate/exit_log.txt"
 ROTATE_INTERVAL = 3600  # 秒
 TARGET_CMD = ["curl", "--interface", "tun0", "-s", "https://api.ipify.org"]
 
